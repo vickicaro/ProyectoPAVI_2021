@@ -33,7 +33,7 @@ namespace MiPrimerProyecto
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            this.Text = "Logeo!!";
+            this.Text = "Logeo de usuario!!";
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
