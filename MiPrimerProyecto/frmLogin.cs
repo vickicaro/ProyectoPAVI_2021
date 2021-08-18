@@ -12,7 +12,7 @@ namespace MiPrimerProyecto
 {
     public partial class frmLogin : Form
     {
-        private string user = "admin" ;
+        private string user = "administrador" ;
         private string pass = "1234";
 
 
@@ -33,7 +33,7 @@ namespace MiPrimerProyecto
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            this.Text = "Logeo de usuario!!";
+            this.Text = "Logeo!!";
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
